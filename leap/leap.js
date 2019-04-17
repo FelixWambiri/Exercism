@@ -8,14 +8,26 @@ export const isLeap = (year) => {
 
 // Other solutions
 // solution 1
-export const isLeap = year => (year % 4 === 0 && !(year % 100 === 0)) || year % 400 === 0;
+/**
+ *
+ * @param {number} year
+ */
+export const isLeap1 = year => (year % 4 === 0 && !(year % 100 === 0)) || year % 400 === 0;
 
 // solution 2
-export const isLeap = (year) => {
+/**
+ *
+ * @param {number} year
+ */
+export const isLeap2 = (year) => {
   return year % 4 == 0 && !(year % 100 == 0) || year % 400 == 0
 };
 
 // solution 3
-export const isLeap = (year) => {
+/**
+ *
+ * @param {number} year
+ */
+export const isLeap3 = (year) => {
   return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
 };
