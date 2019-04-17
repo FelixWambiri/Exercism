@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
 
+=======
+>>>>>>> 01160697348fd5b69f314c001b3bf93b8094abcc
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
